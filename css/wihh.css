@@ -1,0 +1,388 @@
+
+/*Body and Header*/
+
+/* Body and Header animations */
+
+html,body {
+	width: 90%;
+	height: 100%;
+  margin-left:5%;
+	background: linear-gradient(109deg, #e7bbbb, #d27574);
+	background-size: 1000% 2000%;
+	-webkit-animation: background 10s ease infinite;
+	animation: background 8s ease infinite;
+}
+
+@-webkit-keyframes background {
+    0%{background-position:0% 60%}
+    50%{background-position:100% 41%}
+    100%{background-position:0% 60%}
+}
+@keyframes background {
+    0%{background-position:0% 60%}
+    50%{background-position:100% 41%}
+    100%{background-position:0% 60%}
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #264780;
+	text-decoration: none;
+}
+
+@keyframes header_move {
+	0% {top: 2000px; left: 0px;}
+	100% {top: 0px;}
+}
+
+.header {
+	position: relative;
+	animation: header_move 2s;
+	z-index: 1;
+}
+
+@keyframes header_block {
+	0% {top: 2000px; left: 0px;}
+	100% {top: 0px;}
+}
+
+.headerblock {
+	position: relative;
+	animation: header_block 2.3s;
+
+}
+
+@keyframes main_copy {
+	0% {opacity: 0; }
+	20% {opacity: 0;}
+	30% {opacity: .8; }
+	40% {opacity: .9; }
+	50% {opacity: .99;}
+	80% {opacity: .99;}
+	90% {opacity: .99;}
+	100% {opacity: 1;}
+}
+
+.maincopy {
+	position: relative;
+	animation: main_copy 7s;
+	animation-fill-mode: forwards;
+}
+
+@keyframes select_1 {
+	0% {opacity: 0; }
+	100% {opacity: 1;}
+}
+
+#select {
+	opacity: 0;
+	animation: select_1 3s;
+	animation-fill-mode: forwards;
+	animation-delay: 3s;
+}
+
+@keyframes bignames {
+	0% {opacity: 1; transform: scale(1); }
+	50% {opacity: 1; transform: scale(.9);}
+	100% {opacity: 1; transform: scale(1);}
+}
+
+.bignames{
+	opacity: 0;
+	animation: bignames 4s infinite ease-in-out;
+	animation-fill-mode: forwards;
+	animation-delay: 5s;
+	font-size: 50px;
+	font-family: 'BenchNine', sans-serif;
+	color: #264780;
+	margin-left: 15px;
+	margin-top: -20px;
+	display:inline-block;
+}
+
+
+h1 {
+	margin: auto;
+	font-size: 150px;
+	font-family: 'BenchNine', sans-serif;
+	color: white;
+}
+
+#redbox {
+	width:900px;
+	height: 110px;
+	background: #d3413f;
+	margin-top: -110px;
+	margin-left: 100px;
+
+}
+p {
+	font-size: 34px;
+	font-family: 'Barlow Condensed', sans-serif;
+	color: white;
+	line-height: 48px;
+	margin-left: 15px;
+}
+
+.maincopy {
+	font-size: 32px;
+	font-family: 'Barlow Condensed', sans-serif;
+	color: white;
+	line-height: 40px;
+	margin-top: 150px;
+	margin-left: 5%;
+
+}
+
+.wihh {
+	position: absolute;
+}
+
+h2{
+	font-size: 100px;
+	font-family: 'BenchNine', sans-serif;
+	color: #264780;
+}
+
+#adjust1 {
+	margin-left: 60px;
+}
+
+.red1 {
+	width: 100%;
+	height: 30px;
+	background: #d3413f;
+	margin-top: 70px;
+	bottom: 220px;
+
+}
+
+.red2 {
+	width: 100%;
+	height: 30px;
+	background: #d3413f;
+	margin-bottom: 30px;
+}
+
+.red3 {
+	width: 100%;
+	height: 30px;
+	background: #d3413f
+}
+
+.blank {
+	width: 100%;
+	height: 110px;
+
+}
+
+.blank2 {
+	width: 100%;
+	height: 60px;
+
+}
+
+
+/*NICKI*/
+
+/*Nicki Animations*/
+
+@keyframes nickianimate {
+
+}
+
+#nickianimate {
+	position: absolute;
+	animation: nickianimate1 3s ease-in-out;
+	animation-fill-mode: forwards;
+	animation-delay: 6s;
+}
+
+/*@keyframes nickianimate1 {
+	0% {top: 10px; left: 20px;}
+	100% {top: 0px;}
+}
+#nickianimate1 {
+	position: relative;
+	animation: nickianimate1 3s ease-in-out;
+	animation-fill-mode: forwards;
+}*/
+
+.picright {
+	width: 55%;
+	height: 55%;
+	float: right;
+	margin-top: -200px;
+	margin-right: -5px;
+}
+
+.backgroundpic1 {
+	z-index: -1000;
+	position: relative;
+	width: 53%;
+	height: 53%;
+	float: right;
+	margin-top: -600px;
+	margin-right: 50px;
+}
+
+
+.artistbioleft {
+	font-size: 32px;
+	font-family: 'Barlow Condensed', sans-serif;
+	color: white;
+	line-height: 38px;
+	margin-left: 80px;
+}
+
+#adjust1 {
+	margin-left: 60px;
+}
+
+#white1 {
+	width:370px;
+	height: 80px;
+	background: white;
+	margin-top: -120px;
+	margin-left: 80px;
+}
+
+/*YOUNG M.A*/
+
+/*Young M.A Animations*/
+
+#younganimate {
+margin-top: 500px;
+}
+
+@keyframes younganimate1 {
+
+}
+
+#younganimate1 {
+	position: relative;
+	animation: younganimate1 3s ease-in-out;
+	animation-fill-mode: forwards;
+}
+
+
+.picleft {
+	width: 55%;
+	height: 55%;
+	float: left;
+	margin-top: -200px;
+	margin-left: -40px;
+	margin-right: 40px;
+}
+
+.backgroundpic2 {
+	z-index: -1000;
+	position: relative;
+	width: 53%;
+	height: 53%;
+	float: left;
+	margin-top: -550px;
+	margin-left: 15px;
+}
+
+.artistbioright {
+	font-size: 32px;
+	font-family: 'Barlow Condensed', sans-serif;
+	color: white;
+	line-height: 38px;
+	margin-left: 80px;
+	text-align: right;
+
+}
+
+#adjust2 {
+	text-align: right;
+	margin-right: 40px;
+}
+
+#white2 {
+	width:340px;
+	height: 80px;
+	float: right;
+	background: white;
+	margin-top: -60px;
+
+
+}
+
+/*CARDI*/
+
+/*Cardi B Animations*/
+
+@keyframes cardianimate1 {
+
+}
+
+#cardianimate1 {
+	position: relative;
+	animation: cardianimate1 3s ease-in-out;
+	animation-fill-mode: forwards;
+}
+
+
+.picother1 {
+	width: 50%;
+	height: 50%;
+	float: right;
+	margin-top: -130px;
+	margin-right: -50px;
+}
+
+.backgroundpic3 {
+	z-index: -1000;
+	position: relative;
+	width: 53%;
+	height: 53%;
+	float: right;
+	margin-top: -130px;
+	margin-right: -500px;
+}
+
+.artistbioleft1 {
+	font-size: 32px;
+	font-family: 'Barlow Condensed', sans-serif;
+	color: white;
+	line-height: 38px;
+	margin-left: 80px;
+}
+
+@keyframes color_change {
+	0, 100% {color:#d3413f;}
+	33% {color:#264780;}
+	66% {color:#d3413f;}
+	}
+
+.color_change{
+	animation: color_change 2s infinite ease-in-out;
+	animation-fill-mode: forwards;
+
+}
+
+#adjust3 {
+	margin-left: 60px;
+}
+
+
+
+#white3 {
+	width:250px;
+	height: 80px;
+	background: white;
+	margin-top: -70px;
+	margin-left: 80px;
+
+}
+
+audio {
+
+	opacity: 10%;
+}
